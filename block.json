@@ -1,0 +1,20 @@
+{
+  "apiVersion": 2,
+  "name": "graphql-grid/latest-posts-grid",
+  "title": "Latest Posts Grid",
+  "category": "widgets",
+  "icon": "grid-view",
+  "description": "A custom Gutenberg block that fetches and displays latest posts via GraphQL in a Tailwind grid.",
+  "attributes": {
+    "postsToShow": {
+      "type": "number",
+      "default": 4
+    },
+    "currentPostId": {
+      "type": "number"
+    }
+  },
+  "editorScript": "graphql-grid-editor",
+  "editorStyle": "graphql-grid-editor-style",
+  "style": "graphql-grid-editor-style"
+}
